@@ -5,7 +5,7 @@
     case FillRule::Positive: fillrule_string = "POSITIVE"; break;
     case FillRule::Negative: fillrule_string = "NEGATIVE"; break;
   }
-
+//nice
   source << "CAPTION: " << last_test_no <<"." << endl;
   source << "CLIPTYPE: " << cliptype_string << endl;
   source << "FILLRULE: " << fillrule_string << endl;
